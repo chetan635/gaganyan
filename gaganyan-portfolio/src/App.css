@@ -1,0 +1,9 @@
+body{
+    font-family: 'Righteous', cursive;
+    font-weight: 200
+}
+
+.portfolio-desc-full-section{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,255,190,1) 0%, rgba(173,201,255,1) 100%);
+}
