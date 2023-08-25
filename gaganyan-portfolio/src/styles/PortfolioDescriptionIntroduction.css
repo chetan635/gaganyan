@@ -1,0 +1,54 @@
+.title{
+    font-size: 32px;
+}
+
+.role{
+    font-size: 24px;
+    color: #c9c353;
+    margin: 0px !important;
+}
+
+.summary{
+    font-size: 14px;
+}
+
+.resume{
+    display: flex;
+    padding: 14px 0px;
+}
+
+.hire-me-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: 'Righteous', cursive;
+    padding: 8px 0px;
+    margin: 0 14px 0 0;
+    border-radius: 5px;
+    width: 140px;
+}
+
+.resume-btn{
+    background-color: white;
+    color: black; 
+    border: none;
+    font-family: 'Righteous', cursive;
+    padding: 8px 0px;
+    border-radius: 5px;
+    width: 140px;
+}
+
+.social-media{
+    display: flex;
+    gap: 24px;
+    margin: 10px 0px;
+}
+
+.social-media-icon{
+    color: black;
+    font-size: 24px;
+}
+
+h4{
+    margin: 5px 0px 15px 0px;
+}
