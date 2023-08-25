@@ -3,11 +3,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 760px;
+    height: 590px;
     width: 99%;
     padding: 5px 0px 5px 0px;
     margin: 5px;
-    border: 2px solid black;
 }
 
 .leftPart{
@@ -16,7 +15,6 @@
     align-items: center;
     height: 100%;
     width: 50%;
-    border: 2px solid black;
 }
 
 .rightPart{
@@ -25,5 +23,6 @@
     align-items: center;
     height: 100%;
     width: 50%;
+    /* Remove after done Updating right Part */
     border: 2px solid black;
 }
