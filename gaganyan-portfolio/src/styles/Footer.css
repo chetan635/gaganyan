@@ -38,5 +38,6 @@
 }
 
 .footer-icons:hover{
+    transition: 1s;
     transform: scale(1.25);
 }

@@ -1,4 +1,5 @@
 import './App.css';
+import './styles/Utils/common-utils.css'
 import NavBar from './components/NavBar'
 import PortfolioDescription from './components/PortfolioDescription';
 import Footer from './components/Footer';
@@ -10,7 +11,7 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      duration : 1000
+      duration: 1000
     });
   }, []);
 
@@ -18,8 +19,8 @@ function App() {
     <div className="App">
       <div className="portfolio-desc-full-section">
         <NavBar />
-        <PortfolioDescription/>
-        <Footer/> 
+        <PortfolioDescription />
+        <Footer />
       </div>
     </div>
   );

@@ -1,16 +1,17 @@
-import React from 'react'
-import '../styles/PortfolioDescription.css'
-import PortfolioDescriptionIntroduction from './PortfolioDescriptionIntroduction'
+import React from "react";
+import "../styles/PortfolioDescription.css";
+import PortfolioDescriptionIntroduction from "./PortfolioDescriptionIntroduction";
+import PortfolioDescriptionProfile from "./PortfolioDescriptionProfile";
 
 export default function PortfolioDescription() {
   return (
     <div className="PortfolioDescbody">
       <div className="leftPart">
-        <PortfolioDescriptionIntroduction/>
+        <PortfolioDescriptionIntroduction />
       </div>
       <div className="rightPart">
-        this is rightPart
+        <PortfolioDescriptionProfile />
       </div>
     </div>
-  )
+  );
 }

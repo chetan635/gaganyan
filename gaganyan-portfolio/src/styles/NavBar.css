@@ -1,10 +1,23 @@
 .Navbody{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    margin-top: 0px;
     height: 50px;
+    transition: 0.5s;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 5px 0px 5px 0px;
+}
+
+.bg-transparent{
+    background-color: transparent;
+}
+
+.bg-white{
+    background-color: white;
 }
 
 a{

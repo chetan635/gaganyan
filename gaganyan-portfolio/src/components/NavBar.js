@@ -1,8 +1,23 @@
 import React from 'react'
 import '../styles/NavBar.css'
-export default function navBar() {
+import { useEffect, useState } from "react";
+
+export default function NavBar() {
+
+  const [scrollPosition, setScrollPosition] = useState(0);
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="Navbody">
+    <div className={`Navbody ${scrollPosition > 0 ? `bg-white shadow-md` : "bg-transparent"
+      } `}>
       <div className="profile-name">
         Chetan Chinchulkar.
       </div>
