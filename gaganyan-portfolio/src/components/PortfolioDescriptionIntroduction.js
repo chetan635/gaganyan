@@ -15,7 +15,7 @@ export default function PortfolioDescriptionIntroduction() {
       <div className="title" data-aos="fade-up">
         Hello I'm Kiran Ahire
       </div>
-      <div className="role" data-aos="fade-up">
+      <div className="role">
         <TypeAnimation
           data-aos="fade-up"
           sequence={[
@@ -32,7 +32,7 @@ export default function PortfolioDescriptionIntroduction() {
           repeat={Infinity}
         />
       </div>
-      <div className="summary" data-aos="fade-up">
+      <div className="summary">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
       </div>
       <div className="resume" data-aos="fade-up">

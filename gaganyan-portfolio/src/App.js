@@ -1,18 +1,18 @@
-import './App.css';
-import './styles/Utils/common-utils.css'
-import NavBar from './components/NavBar'
-import PortfolioDescription from './components/PortfolioDescription';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import "aos/dist/aos.css"
-import AOS from 'aos';
-import { useEffect } from 'react';
+import "./App.css";
+import "./styles/Utils/common-utils.css";
+import NavBar from "./components/NavBar";
+import PortfolioDescription from "./components/PortfolioDescription";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import "aos/dist/aos.css";
+import AOS from "aos";
+import { useEffect } from "react";
+import MySkills from "./components/MySkills";
 
 function App() {
-
   useEffect(() => {
     AOS.init({
-      duration: 1000
+      duration: 1000,
     });
   }, []);
 
@@ -23,7 +23,8 @@ function App() {
         <PortfolioDescription />
       </div>
       <div className="portfolio-details">
-        <Contact/>
+        <MySkills />
+        <Contact />
       </div>
       <div className="footer">
         <Footer />
