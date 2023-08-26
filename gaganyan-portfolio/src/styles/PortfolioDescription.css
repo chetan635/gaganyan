@@ -18,11 +18,6 @@
 }
 
 .rightPart{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100%;
     width: 50%;
-    /* Remove after done Updating right Part */
-    border: 2px solid black;
 }
