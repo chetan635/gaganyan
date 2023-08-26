@@ -1,0 +1,110 @@
+.my-skills-details-full {
+  padding: 10px 120px;
+  margin-top: 40px;
+  height: 420px;
+}
+
+.my-skill-container {
+  height: 350px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.my-skills-heading {
+  width: 15%;
+}
+
+.my-skills-percentage-bars {
+  display: flex;
+  font-weight: bold;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+}
+
+.w3-border {
+    width: 450px;
+  border-radius: 10px;
+}
+
+.w3-grey {
+  height: 7px;
+  border-radius: 10px;
+  background-color: #ecc94b !important;
+}
+
+.html{
+    width: 400px;
+}
+
+.css{
+    width: 370px;
+}
+
+.javascript{
+    width: 410px;
+}
+
+.ember-js{
+    width: 400px;
+}
+
+.react-js{
+    width: 300px;
+}
+
+.my-skills-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.skill-card-1,
+.skill-card-3 {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 140px;
+  width: 140px;
+  box-shadow: 0px 0px 30px 0px #acacac;
+  border-radius: 7px;
+}
+
+.skill-card-2,
+.skill-card-4 {
+  margin: 15px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 140px;
+  width: 140px;
+  box-shadow: 0px 0px 30px 0px #acacac;
+  border-radius: 7px;
+}
+
+.skill-card-logo-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+}
+
+.skill-card-logo-2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 100%;
+}
