@@ -8,6 +8,9 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import { useEffect } from "react";
 import MySkills from "./components/MySkills";
+import './App.css';
+import './styles/Utils/common-utils.css';
+import Resume from './components/Resume'
 
 function App() {
   useEffect(() => {
@@ -24,6 +27,7 @@ function App() {
       </div>
       <div className="portfolio-details">
         <MySkills />
+        <Resume/>
         <Contact />
       </div>
       <div className="footer">

@@ -12,6 +12,7 @@ body{
 h1,h2,h3,h4{
     padding: 0px;
     margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -21,4 +22,8 @@ h1,h2,h3,h4{
 .portfolio-desc-full-section{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,255,190,1) 0%, rgba(173,201,255,1) 100%);
+}
+
+.portfolio-details{
+    padding: 0px 120px;
 }
