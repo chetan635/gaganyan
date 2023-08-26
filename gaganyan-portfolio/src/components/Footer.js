@@ -16,7 +16,7 @@ export default function footer() {
             href=""
             className="footer-icons-section"
           >
-            <FaTelegramPlane className="footer-icons" />
+            <FaTelegramPlane className="footer-icons teligram-icon" />
             <div className="footer-icons-text">Telegram</div>
           </a>
           <a 
@@ -24,7 +24,7 @@ export default function footer() {
             href=""
             className="footer-icons-section"
           >
-            <IoLogoWhatsapp className="footer-icons" />
+            <IoLogoWhatsapp className="footer-icons whatsapp-icon" />
             <div className="footer-icons-text">WhatsApp</div>
           </a>
           <a 
@@ -32,7 +32,7 @@ export default function footer() {
             href=""
             className="footer-icons-section"
           >
-            <RiInstagramFill className="footer-icons" />
+            <RiInstagramFill className="footer-icons instagram-icon" />
             <div className="footer-icons-text">Instagram</div>
           </a>
         </div>

@@ -52,6 +52,30 @@
     font-size: 24px;
 }
 
+.social-media-icon:hover{
+    transition: 0.3s;
+}
+
 h4{
     margin: 5px 0px 15px 0px;
+}
+
+.github-icon:hover{
+    color: #72004d;
+}
+
+.linkedin-icon:hover{
+    color: #0a66c2;
+}
+
+.instagram-icon:hover{
+    color: #f701ab;
+}
+
+.facebook-icon:hover{
+    color: #1877f2;
+}
+
+.tweeter-icon:hover{
+    color: #1da1f2;
 }
