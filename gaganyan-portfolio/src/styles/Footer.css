@@ -41,3 +41,15 @@
     transition: 1s;
     transform: scale(1.25);
 }
+
+.teligram-icon:hover{
+    color: #2fa3d9;
+}
+
+.whatsapp-icon:hover{
+    color: #00920f;
+}
+
+.instagram-icon:hover{
+    color: #f701ab;
+}
