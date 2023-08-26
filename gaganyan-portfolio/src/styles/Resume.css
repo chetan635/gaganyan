@@ -1,0 +1,106 @@
+.resume-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+.resume-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #BDBDBD;
+}
+.resume-subtitle{
+    margin: 0 0 20px 0;
+}
+.resume-description{
+    display: flex;
+}
+.resume-description-experience{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.resume-description-experience-title{
+    margin: 0 0 30px 0;
+    font-weight: bold;
+}
+.resume-description-experience-summary-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resume-description-experience-summary{
+   border: 3px solid #FFEE58; 
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   width: 65%;
+   border-radius: 5px;
+   box-shadow: #FFEE58 0 0 5px 0;
+}
+
+.resume-description-experience-summary-company{
+    color: #BDBDBD;
+    font-size: 16px;
+}
+
+.resume-description-experience-summary-duration{
+    color: #FFEE58;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+
+.resume-description-experience-summary-info{
+    color: #BDBDBD;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.vertical-bar-body{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vartical-bar-round1{
+    position: absolute;
+    border: 4px solid #FFEE58;
+    left: 11px;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+}
+
+.vartical-bar-round2{
+    position: absolute;
+    left: 11px;
+    bottom: 6px;
+    border: 4px solid #FFEE58;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+}
+
+.resume-description-experience-summary-title{
+    font-weight: bold;
+}
+
+/* utils */
+
+.tag-design{
+    padding: 8px 24px;
+    border: 1px solid #BDBDBD;
+    border-radius: 20px;
+    color: #FFEE58;
+}
+
+.vertical-bar-parent{
+    height: 85%;
+}
+
