@@ -104,3 +104,22 @@
     height: 85%;
 }
 
+/* for responseviness fo this website  */
+@media screen and (max-width: 480px) {
+    .resume-description{
+        flex-direction: column;
+    }
+    .resume-description-experience{
+        gap: 5px;
+    }
+    .resume-body{
+        margin: 5px;
+    }
+    .resume-description-experience-summary{
+        width: 100%;
+    }
+    .resume-description-experience-title{
+        margin: 30px 0px 18px 0px;
+    }
+  }
+

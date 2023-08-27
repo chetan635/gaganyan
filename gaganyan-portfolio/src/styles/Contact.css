@@ -71,4 +71,24 @@
     'wght' 400,
     'GRAD' 0,
     'opsz' 48
+}
+
+/* for responseviness fo this website  */
+@media screen and (max-width: 480px) {
+    .contact-me{
+        flex-direction: column;
+    }
+    .contact-details-body{
+        height: 700px;
+    }
+    .contact-me-details{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-me-form{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
   }
