@@ -36,7 +36,15 @@ export default function PortfolioDescriptionIntroduction() {
         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
       </div>
       <div className="resume" data-aos="fade-up">
-        <button className="hire-me-btn">Hire me</button>
+        <button
+          onClick={() => {
+            const anchor = document.querySelector("#contact");
+            anchor.scrollIntoView({ behavior: "smooth", block: "center" });
+          }}
+          className="hire-me-btn"
+        >
+          Hire me
+        </button>
         <button className="resume-btn">
           Resume <FiDownload />
         </button>
