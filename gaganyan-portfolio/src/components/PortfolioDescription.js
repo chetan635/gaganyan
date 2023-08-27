@@ -5,7 +5,7 @@ import PortfolioDescriptionProfile from "./PortfolioDescriptionProfile";
 
 export default function PortfolioDescription() {
   return (
-    <div className="PortfolioDescbody">
+    <div id="home" className="PortfolioDescbody">
       <div className="leftPart">
         <PortfolioDescriptionIntroduction />
       </div>

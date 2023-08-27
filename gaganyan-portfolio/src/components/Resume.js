@@ -7,7 +7,7 @@ export default function Resume() {
     heading: "Resume"
   };
   return (
-    <div className="resume-body">
+    <div id='resume' className="resume-body">
       <SectionHeadings data={data}/>
       <div className="resume-subtitle" data-aos="fade-up">
         <p>Here are my experiences and qualifications.</p>

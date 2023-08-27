@@ -30,7 +30,7 @@
 .w3-grey {
   height: 7px;
   border-radius: 10px;
-  background-color: #ecc94b !important;
+  background-color: #ECC94B !important;
 }
 
 .html{
@@ -58,8 +58,8 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
-.skill-card-1,
-.skill-card-3 {
+.skill-card-nodejs,
+.skill-card-cpp {
   margin: 15px;
   display: flex;
   flex-direction: column;
@@ -71,8 +71,8 @@
   border-radius: 7px;
 }
 
-.skill-card-2,
-.skill-card-4 {
+.skill-card-graphql,
+.skill-card-java {
   margin: 15px;
   background-color: black;
   color: white;
@@ -86,9 +86,10 @@
   border-radius: 7px;
 }
 
-.skill-card-logo-1 {
+.skill-card-logo-java,.skill-card-logo-graphql {
   display: flex;
   justify-content: center;
+  font-size: 30px;
   align-items: center;
   height: 70px;
   width: 70px;
@@ -97,13 +98,19 @@
   border-radius: 100%;
 }
 
-.skill-card-logo-2 {
+.skill-card-logo-nodejs, .skill-card-logo-cpp {
   color: white;
   display: flex;
+  font-size: 30px;
   justify-content: center;
   align-items: center;
   height: 70px;
   width: 70px;
   background-color: rgb(0, 0, 0);
   border-radius: 100%;
+}
+
+.skill-card:hover{
+  transition: 19s;
+  box-shadow: 0px 0px 30px 0px #e4a400;
 }

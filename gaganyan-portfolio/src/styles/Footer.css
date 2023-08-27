@@ -38,7 +38,7 @@
 }
 
 .footer-icons:hover{
-    transition: 1s;
+    transition: 0.5s;
     transform: scale(1.25);
 }
 
