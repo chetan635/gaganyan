@@ -60,7 +60,7 @@ a {
   border-radius: 7px;
 }
 
-.hamburger-icon{
+.menuButtons {
   display: none;
 }
 
@@ -68,35 +68,59 @@ a {
 
 @media screen and (max-width: 480px) {
   /* jus for testing  */
-  .hamburger-icon{
-    display: block;
-  }
-  .profile-name{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    padding: 0px 20px;
-    justify-content: space-between;
-  }
-  .Navbody{
-    height: 300px;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-  .hide-profile-nav{
-    transition: 0.5s;
+
+  .Navbody > div:not(:first-child) {
     display: none;
   }
-  .profile-nav-height-change{
-    height: 50px;
+
+  .menuButtons {
+    display: block;
   }
-  .profile-navigation{
-    gap: 10px;
-    position: relative;
+
+  .hamburger-cross-icon {
+    display: none;
+  }
+
+  .hamburger-icon {
+    display: block;
+  }
+
+  .Navbody {
+    flex-direction: column;
+    height: 30%;
+    background-color: white;
+  }
+
+  .profile-name {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .profile-navigation {
+    display: block;
+    width: 100%;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .hide-profile-nav {
+    display: none;
+  }
+
+  .profile-navigation-items {
+    gap: 5px;
+    align-items: start;
     flex-direction: column;
   }
-  .profile-navigation-items{
-    flex-direction: column;
-    gap: 10px;
+
+  .profile-navigation-hireme {
+    display: none;
+  }
+
+  .profile-navigation-items > li {
+    padding: 5px;
+    width: 100%;
   }
 }

@@ -1,78 +1,78 @@
-.portfolio-description-profile{
-    height: 100%;
-    position: relative;
-    width: 100%;
-    display: flex;
+.portfolio-description-profile {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  display: flex;
 }
 
-.profile-main-circle{
-    position: absolute;
-    overflow: hidden;
-    background-color: #e4a400;
-    height: 65%;
-    width:55%;
-    border-radius: 100%;
-    top: 20%;
-    left: 25%;
+.profile-main-circle {
+  position: absolute;
+  overflow: hidden;
+  background-color: #e4a400;
+  height: 65%;
+  width: 55%;
+  border-radius: 100%;
+  top: 20%;
+  left: 25%;
 }
 
-.profile-small-circle{
-    position: absolute;
-    background-color: #071927;
-    height: 7%;
-    width: 6%;
-    border-radius: 100%;
-    top: 15%;
-    left: 20%;
+.profile-small-circle {
+  position: absolute;
+  background-color: #071927;
+  height: 7%;
+  width: 6%;
+  border-radius: 100%;
+  top: 15%;
+  left: 20%;
 }
 
-.profile-medium-circle{
-    position: absolute;
-    background-color: #071927;
-    height: 25%;
-    width: 22%;
-    border-radius: 100%;
-    top: 15%;
-    right: 17%;
+.profile-medium-circle {
+  position: absolute;
+  background-color: #071927;
+  height: 25%;
+  width: 22%;
+  border-radius: 100%;
+  top: 15%;
+  right: 17%;
 }
 
-.profile-2nd-medium-circle{
-    position: absolute;
-    background-color: #071927;
-    height: 30%;
-    width: 27%;
-    border-radius: 100%;
-    bottom: 18%;
-    left: 8%;
+.profile-2nd-medium-circle {
+  position: absolute;
+  background-color: #071927;
+  height: 30%;
+  width: 27%;
+  border-radius: 100%;
+  bottom: 18%;
+  left: 8%;
 }
 
-.profile-description-circle-img{
-    height: 110%;
-    width: 100%;
+.profile-description-circle-img {
+  height: 100%;
+  width: 100%;
 }
 
-.profile-description-circle{
-    position: absolute;
-    object-fit: cover;
-    height: 20%;
-    border-radius: 100%;
-    bottom: 12%;
-    right: 17%;
+.profile-description-circle {
+  position: absolute;
+  object-fit: cover;
+  height: 20%;
+  border-radius: 100%;
+  bottom: 12%;
+  right: 17%;
 }
 
-.profileImage{
-    position: absolute;
-    height: 122%;
-    overflow: hidden;
-    width: 90%;
-    right: 15px;
+.profileImage {
+  position: absolute;
+  height: 122%;
+  overflow: hidden;
+  width: 90%;
+  right: 15px;
 }
 
 @keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
