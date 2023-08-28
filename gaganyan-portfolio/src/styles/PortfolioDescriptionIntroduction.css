@@ -42,9 +42,7 @@
 }
 
 .social-media{
-    display: flex;
-    gap: 24px;
-    margin: 10px 0px;
+    display: none;
 }
 
 .social-media-icon{
@@ -78,4 +76,12 @@ h4{
 
 .tweeter-icon:hover{
     color: #1da1f2;
+}
+
+@media screen and (max-width: 480px) {
+    .social-media{
+        display: flex;
+        gap: 24px;
+        margin: 10px 0px;
+    }
 }
