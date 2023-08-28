@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/NavBar.css";
 import { useEffect, useState } from "react";
-import { RxHamburgerMenu } from "react-icons/rx";
+import { RxHamburgerMenu, RxCross1 } from "react-icons/rx";
 
 export default function NavBar() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -18,14 +18,18 @@ export default function NavBar() {
   // changes are not done complately, will be done soon
   const handleHamburgerMenu = () => {
     var x = document.getElementById("profile-navigation");
-    var navBody = document.getElementById("NavBody");
-    var navBodyClassName = navBody.className;
-    if (x.className === "profile-navigation") {
-      x.className += " hide-profile-nav";
-      navBody.className += " profile-nav-height-change";
+    if (x.style.display == "none") {
+      x.style.display = "block";
+      document.getElementsByClassName("hamburger-icon")[0].style.display =
+        "none";
+      document.getElementsByClassName("hamburger-cross-icon")[0].style.display =
+        "block";
     } else {
-      x.className = "profile-navigation";
-      navBody.className = navBodyClassName;
+      x.style.display = "none";
+      document.getElementsByClassName("hamburger-cross-icon")[0].style.display =
+        "none";
+      document.getElementsByClassName("hamburger-icon")[0].style.display =
+        "block";
     }
   };
 
@@ -38,10 +42,16 @@ export default function NavBar() {
     >
       <div className="profile-name">
         Chetan Chinchulkar.{" "}
-        <RxHamburgerMenu
-          onClick={handleHamburgerMenu}
-          className="hamburger-icon"
-        />
+        <div className="menuButtons">
+          <RxHamburgerMenu
+            onClick={handleHamburgerMenu}
+            className="hamburger-icon"
+          />
+          <RxCross1
+            onClick={handleHamburgerMenu}
+            className="hamburger-cross-icon"
+          />
+        </div>
       </div>
       <div id="profile-navigation" className="profile-navigation">
         <ul className="profile-navigation-items">
@@ -85,7 +95,7 @@ export default function NavBar() {
                 anchor.scrollIntoView({ behavior: "smooth", block: "center" });
               }}
             >
-              CONTACTS
+              CONTACT
             </a>
           </li>
         </ul>
