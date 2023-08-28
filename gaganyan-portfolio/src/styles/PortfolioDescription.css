@@ -1,4 +1,5 @@
 .PortfolioDescbody {
+  position: relative;
   display: flex;
   max-width: 100%;
   height: auto;
@@ -8,7 +9,7 @@
   height: 590px;
   width: 100%;
   padding: 5px 0px 5px 0px;
-  margin: 5px;
+  /* margin: 5px; */
 }
 
 .leftPart {
@@ -24,6 +25,31 @@
   width: 50%;
 }
 
+.social-media-left-bar{
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  background-color: white;
+  top: 25%;
+  left: 0;
+  padding: 8px;
+}
+
+.social-media-left-bar-icons{
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.social-media-left-bar-icons > a{
+  line-height: 0;
+}
+
+.social-media-left-bar-icons:hover{
+  background-color: #e4a4002e;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 480px) {
   .PortfolioDescbody {
     flex-direction: column-reverse;
@@ -35,5 +61,8 @@
   }
   .rightPart {
     width: 100%;
+  }
+  .social-media-left-bar{
+    display: none;
   }
 }
