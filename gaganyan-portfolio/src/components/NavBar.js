@@ -41,7 +41,9 @@ export default function NavBar() {
       } `}
     >
       <div className="profile-name">
+        <div className="profile-person-name">
         Chetan Chinchulkar.{" "}
+        </div>
         <div className="menuButtons">
           <RxHamburgerMenu
             onClick={handleHamburgerMenu}

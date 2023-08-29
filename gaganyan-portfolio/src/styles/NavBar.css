@@ -49,6 +49,11 @@ a {
   gap: 70px;
 }
 
+.profile-navigation-items > li > a:hover {
+  color: #e4a400;
+  transition: 0.5s;
+}
+
 .profile-navigation-hireme {
   font-weight: 300;
   font-size: 12px;
@@ -64,11 +69,18 @@ a {
   display: none;
 }
 
-/* this is not perfect, changes are still in Progresss  */
+@media screen and (max-width: 821px) {
+  .profile-navigation-hireme {
+    display: none;
+  }
 
+  .profile-person-name {
+    display: none;
+  }
+}
+
+/* Changes to make website reflexive for mobile screen  */
 @media screen and (max-width: 480px) {
-  /* jus for testing  */
-
   .Navbody > div:not(:first-child) {
     display: none;
   }
@@ -122,5 +134,10 @@ a {
   .profile-navigation-items > li {
     padding: 5px;
     width: 100%;
+    border-bottom: 1px solid #c3c3c3;
+  }
+
+  .profile-person-name {
+    display: block;
   }
 }

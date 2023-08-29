@@ -9,7 +9,6 @@
   height: 590px;
   width: 100%;
   padding: 5px 0px 5px 0px;
-  /* margin: 5px; */
 }
 
 .leftPart {
@@ -50,6 +49,10 @@
   cursor: pointer;
 }
 
+.social-media-icon{
+  font-size: 30px !important;
+}
+
 @media screen and (max-width: 480px) {
   .PortfolioDescbody {
     flex-direction: column-reverse;
@@ -62,7 +65,22 @@
   .rightPart {
     width: 100%;
   }
+}
+
+@media screen and (max-width: 821px) {
+  .PortfolioDescbody {
+    flex-direction: column-reverse;
+    margin: 0px;
+  }
   .social-media-left-bar{
     display: none;
   }
+  .leftPart {
+    justify-content: center;
+    width: 100%;
+  }
+  .rightPart {
+    width: 100%;
+  }
 }
+
