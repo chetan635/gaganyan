@@ -34,4 +34,10 @@ h1,h2,h3,h4{
     .portfolio-details{
         padding: 0px 20px;
     }
-  }
+}
+
+@media screen and (max-width: 821px) {
+    .portfolio-details{
+        padding: 0px 40px;
+    }
+}

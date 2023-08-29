@@ -85,3 +85,11 @@ h4{
         margin: 10px 0px;
     }
 }
+
+@media screen and (max-width: 821px) {
+    .social-media{
+        display: flex;
+        gap: 24px;
+        margin: 10px 0px;
+    }
+}

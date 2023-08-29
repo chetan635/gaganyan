@@ -1,10 +1,8 @@
 .my-skills-details-full {
   margin-top: 40px;
-  height: 420px;
 }
 
 .my-skill-container {
-  height: 350px;
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -23,7 +21,7 @@
 }
 
 .w3-border {
-  width: 450px;
+  width: 90%;
   border-radius: 10px;
 }
 
@@ -34,27 +32,28 @@
 }
 
 .html {
-  width: 400px;
+  width: 87%;
 }
 
 .css {
-  width: 370px;
+  width: 50%;
 }
 
 .javascript {
-  width: 410px;
+  width: 80%;
 }
 
 .ember-js {
-  width: 400px;
+  width: 82%;
 }
 
 .react-js {
-  width: 300px;
+  width: 77%;
 }
 
 .my-skills-cards {
   display: grid;
+  place-items: center;
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -123,39 +122,35 @@
     flex-direction: column;
   }
 
+  .w3-border {
+    width: 100%;
+  }
+
+  .skill-card-java,
+  .skill-card-graphql {
+    margin: 7px;
+  }
+
+  .skill-card-nodejs,
+  .skill-card-cpp {
+    margin: 7px;
+  }
+
   .my-skills-heading {
     width: 100%;
   }
-  
-  .my-skills-percentage-bars{
+
+  .my-skills-percentage-bars {
     width: 100%;
   }
-  
-  .my-skills-details-full{
-    height: 800px;
-  }
+}
 
-  .w3-border {
-    width: 350px;
+/* for responseviness fo this website  */
+@media screen and (max-width: 821px) {
+  .my-skill-container {
+    flex-direction: column;
   }
-
-  .html {
-    width: 320px;
-  }
-  
-  .css {
-    width: 300px;
-  }
-  
-  .javascript {
-    width: 310px;
-  }
-  
-  .ember-js {
-    width: 300px;
-  }
-  
-  .react-js {
-    width: 270px;
+  .my-skills-percentage-bars{
+    width: 100%;
   }
 }
