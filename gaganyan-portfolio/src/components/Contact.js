@@ -3,22 +3,26 @@ import "../styles/Contact.css";
 import { RiSendPlaneFill } from "react-icons/ri";
 import SectionHeadings from "./shared-components/SectionHeadings";
 import emailjs from "@emailjs/browser";
+import contactMeData from "../data/contact-me-data.json";
 import { useEffect } from "react";
 
 export default function Contact() {
   const emailRef = useRef(null);
   const nameRef = useRef(null);
   const messageRef = useRef(null);
-  useEffect(() => emailjs.init("7XR6F_Aev9GKKtpw5"), []);
+  useEffect(
+    () => emailjs.init(contactMeData.contactMeData.emailJSData.publicKey),
+    []
+  );
   const data = {
     heading: "Contact",
   };
 
   const sendEmail = (e) => {
-    const form = document.getElementsByName('contact-form')[0];
+    const form = document.getElementsByName("contact-form")[0];
     e.preventDefault();
-    const serviceId = "service_5wio7xy";
-    const templateId = "template_69qw9ip";
+    const serviceId = contactMeData.contactMeData.emailJSData.serviceId;
+    const templateId = contactMeData.contactMeData.emailJSData.templateId;
 
     emailjs
       .send(serviceId, templateId, {
@@ -28,12 +32,12 @@ export default function Contact() {
         message: messageRef.current.value,
       })
       .then(
-        (result) => {
+        () => {
           alert("Email sent succefully");
           form.reset();
           // show the user a success message
         },
-        (error) => {
+        () => {
           alert("somethign went wrong, please try again some time after");
           // show the user an error
         }
@@ -58,7 +62,11 @@ export default function Contact() {
           </div>
         </div>
         <div className="contact-me-form">
-          <form name="contact-form" className="contact-form" onSubmit={sendEmail}>
+          <form
+            name="contact-form"
+            className="contact-form"
+            onSubmit={sendEmail}
+          >
             <input
               ref={emailRef}
               placeholder="E.g example@gmail.com"
