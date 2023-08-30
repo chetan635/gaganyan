@@ -10,7 +10,8 @@ import { useEffect } from "react";
 import MySkills from "./components/MySkills";
 import './App.css';
 import './styles/Utils/common-utils.css';
-import Resume from './components/Resume'
+import Resume from './components/Resume';
+import Work from './components/Work'
 
 function App() {
   useEffect(() => {
@@ -27,6 +28,7 @@ function App() {
       </div>
       <div className="portfolio-details">
         <MySkills />
+        <Work />
         <Resume/>
         <Contact />
       </div>

@@ -1,0 +1,45 @@
+.work-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
+.work-section-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 40px;
+}
+
+.work-item{
+    display: inline-block;
+    height: 250px;
+    min-width: 350px;
+    border-radius: 5px;
+    margin: 15px 5px 0 0;
+    transition: transform 0.5s ease;
+}
+
+.work-item:hover{
+    transform: scale(1.25);
+}
+
+.work-item-img{
+    width: 100%;
+    height: 100%; 
+    object-fit: fill;
+    border-radius: 5px;
+}
+
+.work-section-title{
+    margin: 0 0 20px 0;
+}
+
+/* for responseviness fo this website  */
+@media screen and (max-width: 480px) {
+    .work-item{
+        height: 200px;
+        min-width: 0px;
+    } 
+}

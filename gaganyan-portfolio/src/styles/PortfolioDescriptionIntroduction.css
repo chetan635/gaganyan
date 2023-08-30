@@ -81,9 +81,18 @@ h4{
 @media screen and (max-width: 480px) {
     .social-media{
         display: flex;
+        justify-content: center;
         gap: 24px;
         margin: 10px 0px;
     }
+    .resume, .role{
+        display: flex;
+        justify-content: center;
+    }
+    .title, .summary{
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 821px) {
