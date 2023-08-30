@@ -8,22 +8,23 @@ import {
 } from "react-icons/ai";
 import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
+import profileDiscriptionData from "../data/profile-description-data.json"
 
 export default function PortfolioDescriptionIntroduction() {
   return (
     <div className="body">
       <div className="title" data-aos="fade-up">
-        Hello I'm Kiran Ahire
+        Hello I'm {profileDiscriptionData.profileContentData.name} !
       </div>
       <div className="role">
         <TypeAnimation
           data-aos="fade-up"
           sequence={[
-            "Web Developer",
+            `${profileDiscriptionData.profileContentData.roles[0]}`,
             2000,
-            "Software Engineer",
+            `${profileDiscriptionData.profileContentData.roles[1]}`,
             2000,
-            "Tech enthusiast",
+            `${profileDiscriptionData.profileContentData.roles[2]}`,
             2000,
             "",
           ]}
@@ -33,7 +34,7 @@ export default function PortfolioDescriptionIntroduction() {
         />
       </div>
       <div className="summary">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        {profileDiscriptionData.profileContentData.faceContent}
       </div>
       <div className="resume" data-aos="fade-up">
         <button

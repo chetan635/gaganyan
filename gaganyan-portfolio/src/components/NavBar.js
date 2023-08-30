@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/NavBar.css";
 import { useEffect, useState } from "react";
 import { RxHamburgerMenu, RxCross1 } from "react-icons/rx";
+import profileDiscriptionData from "../data/profile-description-data.json"
 
 export default function NavBar() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -42,7 +43,7 @@ export default function NavBar() {
     >
       <div className="profile-name">
         <div className="profile-person-name">
-        Chetan Chinchulkar.{" "}
+        {profileDiscriptionData.profileContentData.name}.{" "}
         </div>
         <div className="menuButtons">
           <RxHamburgerMenu

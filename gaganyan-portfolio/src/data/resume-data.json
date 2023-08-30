@@ -1,0 +1,18 @@
+{
+    "resumeData": {
+        "positions": [
+            {
+                "role": "Software Developer",
+                "duration":"Dec 2022 - Present",
+                "institute": "Raja Software Labs",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, quo. Nulla id velit amet provident, placeat pariatur maiores laborum delectus cum eveniet necessitatibus fugiat blanditiis praesentium vitae at minus eligendi?"
+            },
+            {
+                "role": "Btech, Computer Science",
+                "duration":"Aug 2018 - May 2022",
+                "institute": "VIIT",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, quo. Nulla id velit amet provident, placeat pariatur maiores laborum delectus cum eveniet necessitatibus fugiat blanditiis praesentium vitae at minus eligendi?"
+            }
+        ]
+    }
+}
