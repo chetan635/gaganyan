@@ -66,7 +66,7 @@ export default function MySkills() {
           </div>
           <div className="skill-card skill-card-java" data-aos="zoom-in">
             <div className="skill-card-logo-java"><BiLogoJava/></div>
-            <div className="skill-card-name">cheatn</div>
+            <div className="skill-card-name">Java</div>
           </div>
         </div>
       </div>

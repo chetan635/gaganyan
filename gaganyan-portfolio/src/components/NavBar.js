@@ -16,7 +16,7 @@ export default function NavBar() {
     };
   }, []);
 
-  // changes are not done complately, will be done soon
+  // function to handle the hamburger menu 
   const handleHamburgerMenu = () => {
     var x = document.getElementById("profile-navigation");
     if (x.style.display == "none") {
@@ -78,9 +78,9 @@ export default function NavBar() {
               SKILLS
             </a>
           </li>
-          <li>
+          {/* <li>
             <a>WORKS</a>
-          </li>
+          </li> This should be enabled if the works section in website is active */}
           <li>
             <a
               onClick={() => {
