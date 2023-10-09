@@ -28,7 +28,7 @@ function App() {
       </div>
       <div className="portfolio-details">
         <MySkills />
-        <Work />
+        {/* <Work /> Making this section hidden until new Projects gets added to this portolio, feel free to add projects if you wish by updating the info in </Work > component */}
         <Resume/>
         <Contact />
       </div>
